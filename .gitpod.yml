@@ -1,4 +1,4 @@
-image: kitproject/gitpod-flutter:v2.0.3
+image: kitproject/gitpod-flutter:v2.5.0
 tasks:
   - init: >
       flutter pub get
@@ -7,9 +7,3 @@ tasks:
 ports:
   - port: 8080
     onOpen: open-preview
-vscode:
-  extensions:
-    - dart-code.dart-code@3.20.1:gGa6ad50ztRhIjcM9pnYxQ==
-    - dart-code.flutter@3.20.0:BhnREmTX9cfXUczRkKavfg==
-    - alphabotsec.vscode-eclipse-keybindings@0.12.0:FCwchQz8KuaeuhwHtGmfUw==
-    - robert-brunhage.flutter-riverpod-snippets@0.1.1:1yVggXYvAzhaVpbx3eIvCg==
